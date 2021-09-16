@@ -10,44 +10,22 @@
 html, body{
     height:100%;
     font-size: 1em;
-    font-family: urbanist, sans-serif;
+
 }
 
 body{
     background-image:url(../images/pandemic_map.jpg);
     background-repeat: no-repeat;    
     background-attachment: fixed;
-    /* background-position: center;
-    background-position-x: center;
-    background-position-y: center; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
-
-
-#black-box{
-    text-align: center;
-    margin: 0 auto;
-    width:50%;
-    /* background-image:url(../images/covid_stats_bg.jpg);
-    background-repeat: no-repeat;    
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-}
-
-/* nav bar + footer styling */
-
-h1{
+/*#region nav bar + footer styling*/
+header h1{
     text-align: center;
     margin: 0 auto;
     font-size:1.5rem;
+    font-family: urbanist, sans-serif;
 }
 
 ul{
@@ -87,3 +65,31 @@ header{
 header h1 span{
     color:yellowgreen;
 }
+/*#endregion nav bar + footer styling*/
+
+/*#region Page content styling */
+.description {
+    background-color: rgba(0, 0, 0, 0.6);
+    width:50%;
+
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    top: 10rem;
+}
+
+main p{
+    text-align: center;
+    color:whitesmoke;
+    font-family: Lato, sans-serif;
+    font-size: 2ch;
+}
+
+@media only screen and (max-width: 600px) {
+    main p {
+      font-size : 1.5ch;
+    }
+  }
+
+/*#endregion Page content styling*/
+
