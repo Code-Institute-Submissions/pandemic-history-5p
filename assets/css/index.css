@@ -14,16 +14,35 @@ html, body{
 }
 
 body{
-    background-image:url(../images/covid_stats_bg.jpg);
+    background-image:url(../images/pandemic_map.jpg);
     background-repeat: no-repeat;    
-    background-position: center;
+    background-attachment: fixed;
+    /* background-position: center;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+
+#black-box{
+    text-align: center;
+    margin: 0 auto;
+    width:50%;
+    /* background-image:url(../images/covid_stats_bg.jpg);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+/* nav bar + footer styling */
 
 h1{
     text-align: center;
@@ -38,24 +57,33 @@ ul{
 ul li{
     font-family: Lato, sans-serif;
     display:inline;
-    padding-top:20px;
     list-style-type: none;
     margin: 0 0.5rem;
 }
 
+ul li:hover{
+    background-color: rgba(86,96,68, 0.9);
+}
+
 li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1rem;
 }
 
 footer{
-    background-color: rgba(86, 96, 68, 0.5);
+    background-color: rgba(63,75,44, 0.9);
+    height:1.2rem;
     position: fixed;
     width:100%;
     bottom:0;
 }
 
-#black-box{
-    text-align: center;
+header{
+    background-color: rgba(63,75,44, 0.9);
+    color:white;
+}
+
+header h1 span{
+    color:yellowgreen;
 }
