@@ -59,8 +59,17 @@ footer{
     bottom:0;
 }
 
-footer p{
-    font-size: 1.1rem;
+footer span{
+    font-size: 1rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+footer a{
+    color: white;
 }
 
 header{
@@ -71,11 +80,24 @@ header{
 header h1 span{
     color:yellowgreen;
 }
+
+.social-icons{
+    float:right;
+    margin-top:1.5px;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+    footer span, footer a{
+        font-size: 0.85rem;
+    }
+}
 /*#endregion nav bar + footer styling*/
 
 /*#region Page content styling */
-
-
 .parent {
     width:50%;
     margin: 0 auto;
