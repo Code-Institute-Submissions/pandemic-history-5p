@@ -2,7 +2,20 @@
 
 __Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is the largest and most deadly disease to harm and kill humans, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
 
+## UX
+For the design i opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out.
+
+## Color Scheme
+I used [colormind](http://colormind.io/) to find a color pallete for my site, using the one shown below. I chose these because when talking about disease and illness, lighter shades of green and yellow are typically the first colors that come to mind and are used in many paintings and artwork depicting disease. Although i do not plan on using all the colors outside of the first two as i plan to have the site to have a image background and black textboxes for readability.
+
+## Typography
+I chose to use a more decroative font, urbanist, for the title and headers, and opted for a more readable font, Lato, for the paragraphs of text.
+For the links on the footer i used font-awesome as its easy to use and has many logos for any sort of website i would like to link.
+
+### Wireframes
+
 ## Features
+### Existing Features
 - Header / Navigation bar
     - On all 4 pages, slightly transparent and is responsive. Displays the name of the site and a navigation bar to 3 of the 4 pages
     - Allows for easy navigation of the site
@@ -22,8 +35,29 @@ __Pandemics through time__ is an informational website with the purpose of givin
 - Credits
     - A list of all the sources of information, images, definitions, packages etc. that was used in the development of the site
 
+### Features Left to Implement
+Contact page + credits
+
+## Technologies Used
+While working on this project i made use of a few tools, to store and version my code i used github + git. To develop the site i used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
+
+To create the layout of the three paragraphs on the home page i used css grid, to easily create the grid i used this the [website](https://cssgrid-generator.netlify.app/) shown below.
+![CSS Grid Generator](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+To select my fonts i used [google fonts](https://fonts.google.com/)
 
 ## Testing
+
+### Browser Compatibility
+
+### Code Validation
+
+### Responsiveness
+
+### Unfixed Bugs
+On Timeline.html, if you are on a tablet and move the page down while having the navigation bar present the background image will move and show a white box for a moment.
+
+## Deployment
 
 ## Credits
 
