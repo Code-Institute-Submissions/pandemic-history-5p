@@ -11,6 +11,12 @@ body, html{
     height:100%;
 }
 
+body{
+    background-image: url(../images/pandemic_map.jpg);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /*#region header */
 header h1{
@@ -53,87 +59,97 @@ header li a{
 /*#endregion header*/
 
 /*#region content */
-
-/*#region Seperator */
-.pointer{
-    position: absolute;
+.overlay{
+    background-color: rgba(255, 255, 255, 0.15);
     width:100%;
+    /* need to set main to 100% to work, then set z-index on stuff to put them infront of overlay */
+    position: static;
+    height:100%;
 }
 
-.chevron{
-    position: relative;
-    top: 1.5vw;
-}
-
-.left-line{
+.seperator{
+    width:90%;
+    height:2px;
     background-color: black;
-    height: 1px;
-    width: 47%;
-    position: absolute;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
-.right-line{
-    background-color: black;
-    width:47%;
-    height:1px;
-    right:0;
-    position: absolute;
+.list-parent{
+    text-align: center;
 }
 
-.left-arrow{
-    background-color: black;
-    width:3%;
-    height:1px;
-    right:47%;
-    position: absolute;
-    transform: skewy(-45deg);
-}
+main ul{
+    text-align: left;
+    display:inline-block;
+    padding:10px;
+    margin: 10px 0px 30px 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    list-style-position: inside;
 
-.right-arrow{
-    background-color: black;
-    width:3%;
-    height:1px;
-    right:50%;
-    position: absolute;
-    transform: skewy(45deg);
-}
-/*#endregion Seperator */
-
-main{
-    background-color: #A5B6A5;
-    background-image: url(../images/pandemic_map.jpg);
-    background-repeat: no-repeat;    
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
 }
 
 main li{
     font-family: lato;
+    font-size: 0.75rem;
+    color:white;
+ 
+}
+
+h2, h3 {
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 70%;
+	margin: 0 auto;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+h3{
+    margin-bottom: 10px;
 }
 
 p{
     font-family: urbanist, sans-serif;
 }
 
-main p{
-    padding: 5px;
+main p {
+	font-family: lato, sans-serif;
+	font-size: 0.75rem;
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+img {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	border: 3px solid black;
+    margin-bottom: 40px;
+}
+
+main i{
     text-align: center;
+    width: 100%;
+    font-size: 3rem;
 }
 
-img{
-    display:block;
-    width: 100%;  
+ul li a{
+    color: white;
+    text-decoration: none;
 }
 
-.hr{
-    width:25%;
-    height: 10px;
-    background-color:red;
-}
-
-ul li{
-
+main ul li a:hover{
+    background-color:  rgba(63,75,44, 0.9);;
 }
 
 /*#endregion content */
@@ -183,12 +199,35 @@ footer a{
     header h1 span{
         color:green;
     }
+
+    h2{
+        font-size: 1.75rem;
+    }
+
+    h3{
+        font-size: 1.25rem;
+    }
+
+    main p{
+        font-size: 1rem;
+    }
+
+    img{
+        max-width: 600px;
+    }
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
     header h1 span{
         color:blue;
+    }
+
+    h2, h3{
+        width:40%;
+    }
+    main p{
+        width:60%;
     }
 }
 
