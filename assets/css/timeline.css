@@ -33,7 +33,6 @@ header{
 
 header h1 span{
     color:yellowgreen;
-    color:red;
 }
 
 header ul{
@@ -102,6 +101,7 @@ h2, h3 {
 	background-color: rgba(0, 0, 0, 0.9);
 	width: 70%;
 	margin: 0 auto;
+    font-family: urbanist, sans-serif;
 }
 
 h2{
@@ -196,9 +196,6 @@ footer a{
 
 /* Tablet */
 @media only screen and (min-width: 600px) {
-    header h1 span{
-        color:green;
-    }
 
     h2{
         font-size: 1.75rem;
@@ -219,10 +216,6 @@ footer a{
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
-    header h1 span{
-        color:blue;
-    }
-
     h2, h3{
         width:40%;
     }
@@ -233,7 +226,5 @@ footer a{
 
 /* Large Desktop */
 @media only screen and (min-width: 1200px) {
-    header h1 span{
-        color:yellow;
-    }
+
 }
