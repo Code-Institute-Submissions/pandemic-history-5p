@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body, html{
+    height:100%;
+}
+
+body{
+    background-image: url(../images/pandemic_map.jpg);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*#region header */
+header h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size:1.5rem;
+    font-family: urbanist, sans-serif;
+}
+
+header{
+    background-color: rgba(63,75,44, 0.9);
+    color:white;
+}
+
+header h1 span{
+    color:yellowgreen;
+}
+
+header ul{
+    text-align: center;
+}
+
+header ul li{
+    font-family: Lato, sans-serif;
+    display:inline;
+    list-style-type: none;
+    margin: 0 0.5rem;
+}
+
+header ul li:hover{
+    background-color: rgba(86,96,68, 0.9);
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+/*#endregion header*/
+
+/*#region Footer */
+footer{
+    font-family: Urbanist, sans-serif;
+    background-color: rgba(63,75,44, 0.9);
+    color:white;
+    height:2rem;
+    position: fixed;
+    width:100%;
+    bottom:0;
+}
+
+footer span{
+    font-size: 0.9rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+footer a{
+    color: white;
+}
+
+.social-icons{
+    font-size: 1.25rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right:0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.social-icons a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+/*#endregion Footer*/
