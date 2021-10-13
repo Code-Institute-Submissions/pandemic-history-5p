@@ -157,7 +157,7 @@ On Timeline.html, if you are on a tablet and move the page down while having the
     - [Flu Pandemic (also know as Russian Flu) "Three separate illustrations relating to the influenza epidemic in Paris."](https://collections.nlm.nih.gov/catalog/nlm:nlmuid-101459303-img)
     - [Spanish Flu "Emergency hospital during Influenza epidemic, Camp Funston, Kansas"](https://commons.wikimedia.org/wiki/File:Emergency_hospital_during_Influenza_epidemic,_Camp_Funston,_Kansas_-_NCP_1603.jpg)
     - [Influenza "168 sick conscripts by asian flu in a sport arena att F 21 in Luleå. Picture was taken in 1957."](https://commons.wikimedia.org/wiki/File:Asian_flu_in_Sweden_1957_(2).jpg)
-    - [Hong Kong Flu "Nurse Nadyne Weber stands by her notice severely restricting visiting hours at Cleveland's Grace Hospital due to a flu outbreak."]("https://www.gettyimages.co.uk/detail/news-photo/nurse-nadyne-weber-stands-by-her-notice-severely-news-photo/515572182?et=T9x66YdqT4BjYPkRAQHT_g&referrer=https%3A%2F%2F8000-magenta-hare-vfcxgauz.ws-eu18.gitpod.io%2F")
+    - [Hong Kong Flu "Nurse Nadyne Weber stands by her notice severely restricting visiting hours at Cleveland's Grace Hospital due to a flu outbreak."]("https://www.gettyimages.co.uk/detail/news-photo/nurse-nadyne-weber-stands-by-her-notice-severely-news-photo/515572182?et=T9x66YdqT4BjYPkRAQHT_g")
     - [HIV/AIDS "Pakistani paramedics takes blood samples from children for HIV tests at a state-run hospital in Rato Dero"](https://www.gettyimages.co.uk/detail/news-photo/in-this-image-taken-on-may-9-pakistani-paramedics-takes-news-photo/1144019900)
     - [Covid 19 "People in face masks strolling in Piazza di Spagna, Rome, Italy during the Covid pandemic"](https://unsplash.com/photos/-Qoi7zAf6YE)
   
