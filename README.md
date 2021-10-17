@@ -43,7 +43,7 @@ For the links on the footer i used font-awesome as its easy to use and has many 
     - A page for users to inqure about the site, correct and/or add to the site with there own information or sources that may improve on it.
 
 - Credits
-    - A list of all the sources of information, images, definitions, packages etc. that was used in the development of the site
+    - A list of all the sources of information, images, definitions, that was used in the site
 
 ### Features Left to Implement
 Contact page + credits
@@ -51,18 +51,22 @@ Contact page + credits
 ## Technologies Used
 While working on this project i made use of a few tools, to store and version my code i used github + git. To develop the site i used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
 
-To create the layout of the three paragraphs on the home page i used css grid, to easily create the grid i used this the [website](https://cssgrid-generator.netlify.app/) shown below.
-
+- To create the layout of the three paragraphs on the home page i used css grid, to easily create the grid i used this the [website](https://cssgrid-generator.netlify.app/) shown below.
 ![CSS Grid Generator](documentation/images/cssgrid.png)
 
-
+- I used html and css, [example](https://en.wikipedia.org/wiki/Main_Page)
+- To help with styling i used a css debugger to help me with things like positioning and size, [link](https://github.com/benscabbia/x-ray)
+- For my ide i used gitpod, [link](https://www.gitpod.io/)
+![gitpod](documentation/gitpod.png)
 
 ## Testing
 
 ### Browser Compatibility
-![Index.html shown in edge](https://github.com/edenobrega/pandemic-history-5p/blob/main/documentation/images/edge.png)
+![Index.html shown in edge](documentation/images/edge.png) 
+*Index.html shown in edge*
 
-![Timeline.html shown in firefox](https://github.com/edenobrega/pandemic-history-5p/blob/main/documentation/images/firefox.png)
+![Timeline.html shown in firefox](documentation/images/firefox.png)
+*Timeline.html shown in firefox*
 ### Code Validation
 For validation i used two tools from w3, for css i used [this](https://validator.w3.org/nu/) and for html i used [this](https://jigsaw.w3.org/css-validator/) site  
 
@@ -80,7 +84,20 @@ For validation i used two tools from w3, for css i used [this](https://validator
 [CSS Validation, also giving no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Ftimeline.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Responsiveness
+![Site Shown on my phone, huawei mate 20 pro](documentation/images/res_phone.png)
+*Site Shown on my phone, huawei mate 20 pro*
 
+![Site shown at 635px](documentation/images/resp_635.png)
+*Site shown at 635px*
+
+![Site shown at 900px](documentation/images/resp_900.png)
+*Site shown at 900px*
+
+![Site shown at 1200px](documentation/images/resp_1200.png)
+*Site shown at 1200px*
+
+![Site shown at 1920px](documentation/images/resp_desk.png)
+*Site shown at 1920px*
 ### Unfixed Bugs
 
 ## Deployment
