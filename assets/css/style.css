@@ -22,6 +22,9 @@ body{
     background-size: cover;
 }
 
+main{
+    min-height:calc(100vh - 48px - 48px);
+}
 
 /*#region header */
 header h1{
@@ -67,36 +70,24 @@ footer{
     font-family: Urbanist, sans-serif;
     background-color: rgba(63,75,44, 0.9);
     color:white;
-    height:2rem;
-    position: fixed;
     width:100%;
-    bottom:0;
 }
 
-footer span{
-    font-size: 0.9rem;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+footer p{
+    text-align: center;
+    padding:5px;
 }
 
 footer a{
     color: white;
+    margin-right:5px;
 }
 
 .social-icons{
-    font-size: 1.25rem;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    right:0;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
-.social-icons a{
+.social-icons{
     text-decoration: none;
     margin-right: 5px;
 }
