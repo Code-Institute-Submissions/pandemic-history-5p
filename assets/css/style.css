@@ -26,6 +26,8 @@ main{
     min-height:calc(100vh - 48px - 48px);
 }
 
+
+
 /*#region header */
 header h1{
     text-align: center;

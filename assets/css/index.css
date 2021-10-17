@@ -1,10 +1,9 @@
-
-
 /*#region Content */
 .parent {
     width:75%;
     margin: 0 auto;
-    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 0.5fr;
@@ -13,7 +12,7 @@
 }
     
 .site-descriptor, .epidemic-definition, .pandemic-definition{
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.9);
     padding:2vh;
 }
 
@@ -49,7 +48,7 @@ main p{
 @media only screen and (min-width: 992px) {
     .parent{
         width:75%;
-        margin-top:2.5%;
+        padding-top:2.5%;
     }
 }
 
@@ -57,6 +56,6 @@ main p{
 @media only screen and (min-width: 1200px) {
     .parent{
         width: 50%;
-        margin-top:2.5%;
+        padding-top:2.5%;
     }
 }
