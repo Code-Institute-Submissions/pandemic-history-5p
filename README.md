@@ -3,7 +3,7 @@
 __Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is the largest and most deadly disease to harm and kill humans, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
 
 ## UX
-For the design i opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out.
+For the design i opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey 
 
 ### Color Scheme
 I used [colormind](http://colormind.io/) to find a color pallete for my site, using the one shown below. I chose these because when talking about disease and illness, lighter shades of green and yellow are typically the first colors that come to mind and are used in many paintings and artwork depicting disease. Although i do not plan on using all the colors outside of the first two, as i plan on having the background as an image and black textboxes with white text for readability.
@@ -18,12 +18,14 @@ I chose to use a more decroative font, urbanist, for the title and headers, and 
 For the links on the footer i used font-awesome as its easy to use and has many logos for any sort of website i would like to link.
 
 ### Wireframes
-![](documentation/images/homepage_wireframe_final.png)
+![](documentation/wireframes/homepage_wireframe_final.png)
 *Final wireframe for homepage*
 
-![](documentation/images/timeline_wireframe.png)
+![](documentation/wireframes/timeline_wireframe.png)
 *Wireframe for timeline*
 
+![](documentation/wireframes/signup_wireframe.png)
+*Wireframe for newsletter signup*
 ## Features
 ### Existing Features
 - Header / Navigation bar
@@ -39,14 +41,14 @@ For the links on the footer i used font-awesome as its easy to use and has many 
     - The main content of the site, a vertically explored page that goes through the history of pandemics starting from the earliest known ones, to the most current one being Covid-19
     - The start and end date (if its ended) of the pandemic shown on the left hand side with the left consisting of a block text and the background area being a relevant picture to the spoken about pandemic
 
-- Contact
-    - A page for users to inqure about the site, correct and/or add to the site with there own information or sources that may improve on it.
+- Newsletter
+    - A page for users to signup for a history themed newsletter 
 
 - Credits
     - A list of all the sources of information, images, definitions, that was used in the site
 
 ### Features Left to Implement
-Contact page + credits
+credits
 
 ## Technologies Used
 While working on this project i made use of a few tools, to store and version my code i used github + git. To develop the site i used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
@@ -62,11 +64,14 @@ While working on this project i made use of a few tools, to store and version my
 ## Testing
 
 ### Browser Compatibility
-![Index.html shown in edge](documentation/images/edge.png) 
+![index.html shown in edge](documentation/images/edge.png) 
 *Index.html shown in edge*
 
-![Timeline.html shown in firefox](documentation/images/firefox.png)
+![timeline.html shown in firefox](documentation/images/firefox.png)
 *Timeline.html shown in firefox*
+
+![newsletter.html shown in chrome](documentation/images/chrome.png)
+*Newsletter.html shown in chrome*
 ### Code Validation
 For validation i used two tools from w3, for css i used [this](https://validator.w3.org/nu/) and for html i used [this](https://jigsaw.w3.org/css-validator/) site  
 
@@ -83,15 +88,19 @@ For validation i used two tools from w3, for css i used [this](https://validator
 
 [CSS Validation, also giving no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Ftimeline.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Newsletter
+[HTML Validation, giving no errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fnewsletter.html)
+[CSS Validation, also giving no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Fnewsletter.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ### Responsiveness
 ![Site Shown on my phone, huawei mate 20 pro](documentation/images/res_phone.png)
 *Site Shown on my phone, huawei mate 20 pro*
 
-![Site shown at 635px](documentation/images/resp_635.png)
-*Site shown at 635px*
+![Site shown at 734px](documentation/images/resp_635.png)
+*Site shown at 734px*
 
-![Site shown at 900px](documentation/images/resp_900.png)
-*Site shown at 900px*
+![Site shown at 880px](documentation/images/resp_900.png)
+*Site shown at 880px*
 
 ![Site shown at 1200px](documentation/images/resp_1200.png)
 *Site shown at 1200px*
