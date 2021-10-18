@@ -1,72 +1,76 @@
+.form-container {
+    padding: 30px 0;
+}
 
-        .form-container{
-            padding: 30px 0;
-        }
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
-        form{
-            width:80%;
-            margin: 0 auto;
-            padding-top:10px;
-            background-color: rgba(0,0,0,0.5);
-        }
+h2 {
+    color: white;
+    text-align: center;
+    font-family: urbanist;
+    padding-bottom: 5px;
+}
 
-        h2{
-            color:white;
-            text-align: center;
-            font-family: urbanist;
-            padding-bottom: 5px;
-        }
+p,
+input,
+textarea {
+    font-family: lato;
+}
 
-        p, input, textarea{
-            font-family:lato;
-        }
+label {
+    color: white;
+    font-family: lato;
+    margin-left: 5%;
+    margin-top: 10px;
+}
 
-        label{
-            color:white;
-            font-family: lato;
-            margin-left:5%;
-            margin-top: 10px;
-        }
+main p {
+    color: white;
+    text-align: center;
+    margin: 20px 10px;
 
-        main p{
-            color:white;
-            text-align: center;            
-            margin: 20px 10px;
-            
-        }
+}
 
-        input, textarea{
-            font-size: 2ch;            
-            color:white;
-            margin-top:3px;
-            margin-left:5%;
-            margin-bottom: 10px;
-            padding:7.5px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border: 3px solid #ccc;
-            outline: none;
-            -webkit-transition: 0.5s;
-            transition: 0.5s;
-        }
+input,
+textarea {
+    font-size: 2ch;
+    color: white;
+    margin-top: 3px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    padding: 7.5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid #ccc;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
 
-        textarea{
-            resize: none;
-            width:85%;
-            margin-bottom: 10px;
-        }
+textarea {
+    resize: none;
+    width: 85%;
+    margin-bottom: 10px;
+}
 
-        .seperator{
-            width:90%;
-            height:2px;
-            background-color: white;
-            margin: 0 auto;
-        }
+.seperator {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
 
-        input:focus, textarea:focus {
-            border: 3px solid #555;
-            background-color: rgb(20, 20, 20);
-        }
+input:focus,
+textarea:focus {
+    border: 3px solid #555;
+    background-color: rgb(20, 20, 20);
+}
 
-        label, input{
-            display:block;
-        }
+label,
+input {
+    display: block;
+}

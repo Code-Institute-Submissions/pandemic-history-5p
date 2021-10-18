@@ -1,80 +1,82 @@
 /*#region content */
-.seperator{
-    width:90%;
-    height:2px;
+.seperator {
+    width: 90%;
+    height: 2px;
     background-color: black;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
-h2, h3 {
-	text-align: center;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.9);
-	width: 70%;
-	margin: 0 auto;
+h2,
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 70%;
+    margin: 0 auto;
     font-family: urbanist, sans-serif;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     text-decoration: underline;
 }
 
-h3{
+h3 {
     margin-bottom: 10px;
 }
 
-p{
+p {
     font-family: urbanist, sans-serif;
 }
 
 main p {
-	font-family: lato, sans-serif;
-	color: white;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.9);
-	padding: 10px;
-	width: 90%;
-	margin: 0 auto;
-	margin-bottom: 10px;
+    font-family: lato, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
-img, .getty {
-	display: block;
-	width: 90%;
-	margin: 0 auto;
-	border: 3px solid black;
+img,
+.getty {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 3px solid black;
     margin-bottom: 40px;
 }
 
-main i{
+main i {
     text-align: center;
     width: 100%;
     font-size: 3rem;
 }
 
-main a{
+main a {
     color: white;
     text-decoration: none;
 }
 
-main a:hover{
-    background-color:  rgba(63,75,44, 0.9);;
+main a:hover {
+    background-color: rgba(63, 75, 44, 0.9);
 }
 
-.links-parent{
+.links-parent {
     margin: 10px auto;
     text-align: center;
 }
 
-main a{
+main a {
     background: rgba(0, 0, 0, 0.6);
     font-family: lato;
-    display:inline-block;
-    padding:10px;       
+    display: inline-block;
+    padding: 10px;
     margin-left: 5px;
-    margin-bottom: 5px;     
+    margin-bottom: 5px;
 }
 
 /*#endregion content */
@@ -82,44 +84,47 @@ main a{
 
 /* Tablet */
 @media only screen and (min-width: 600px) {
-    h2{
+    h2 {
         font-size: 1.75rem;
     }
 
-    h3{
+    h3 {
         font-size: 1.25rem;
     }
 
-    main p{
+    main p {
         font-size: 1rem;
     }
 
-    img{
+    img {
         max-width: 600px;
     }
 
-    .links-parent{
-        width:90%;
+    .links-parent {
+        width: 90%;
     }
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
-    h2, h3{
-        width:40%;
-    }
-    main p{
-        width:60%;
+
+    h2,
+    h3 {
+        width: 40%;
     }
 
-    .links-parent{
-        width:60%;
+    main p {
+        width: 60%;
+    }
+
+    .links-parent {
+        width: 60%;
     }
 }
 
 /* Large Desktop */
 @media only screen and (min-width: 1200px) {
-    .links-parent{
-        width:55%;
+    .links-parent {
+        width: 55%;
     }
 }

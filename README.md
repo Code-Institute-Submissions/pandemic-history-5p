@@ -1,21 +1,21 @@
 # Panedmics Through Time
 
-__Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is the largest and most deadly disease to harm and kill humans in the last 100 years, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
+__Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is the largest and most deadly disease to harm and kill humans, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
 
 ## UX
-For the design i opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey 
+For the design I opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey 
 
 ### Color Scheme
-I used [colormind](http://colormind.io/) to find a color pallete for my site, using the one shown below. I chose these because when talking about disease and illness, lighter shades of green and yellow are typically the first colors that come to mind and are used in many paintings and artwork depicting disease. Although i do not plan on using all the colors outside of the first two, as i plan on having the background as an image and black textboxes with white text for readability.
+I used [colormind](http://colormind.io/) to find a color pallete for my site, using the one shown below. I chose these because when talking about disease and illness, lighter shades of green and yellow are typically the first colors that come to mind and are used in many paintings and artwork depicting disease. Although I do not plan on using all the colors outside of the first two, as I plan on having the background as an image and black textboxes with white text for readability.
 
 ![](documentation/images/website_pallete.png)
 *Scheme Used*
 
 ### Typography
-To select my fonts i used [google fonts](https://fonts.google.com/)
+To select my fonts I used [google fonts](https://fonts.google.com/)
 
 I chose to use a more decroative font, urbanist, for the title and headers, and opted for a more readable font, Lato, for the paragraphs of text.
-For the links on the footer i used font-awesome as its easy to use and has many logos for any sort of website i would like to link.
+For the links on the footer I used font-awesome as its easy to use and has many logos for any sort of website I would like to link.
 
 ### Wireframes
 ![](documentation/wireframes/homepage_wireframe_final.png)
@@ -35,7 +35,7 @@ For the links on the footer i used font-awesome as its easy to use and has many 
 - Footer
     - Contains my email for contact
     - A link to the credits where all of the sources for images etc, are listed
-    - On the right hand side is 4 icons each leading to my social medias (although i only have linkedin)
+    - On the right hand side is 4 icons each leading to my social medias (although I only have linkedin)
 
 - Timeline
     - The main content of the site, a vertically explored page that goes through the history of pandemics starting from the earliest known ones, to the most current one being Covid-19
@@ -51,15 +51,15 @@ For the links on the footer i used font-awesome as its easy to use and has many 
 credits
 
 ## Technologies Used
-While working on this project i made use of a few tools, to store and version my code i used github + git. To develop the site i used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
+While working on this project I made use of a few tools, to store and version my code I used github + git. To develop the site I used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
 
-- To create the layout of the three paragraphs on the home page i used css grid, to easily create the grid i used this the [website](https://cssgrid-generator.netlify.app/) shown below.
+- To create the layout of the three paragraphs on the home page I used css grid, to easily create the grid I used this the [website](https://cssgrid-generator.netlify.app/) shown below.
 ![CSS Grid Generator](documentation/images/cssgrid.png)
 
 - I used html and css, [example](https://en.wikipedia.org/wiki/Main_Page)
-- To help with styling i used a css debugger to help me with things like positioning and size, [link](https://github.com/benscabbia/x-ray)
-- For my ide i used gitpod, [link](https://www.gitpod.io/)
-![gitpod](documentation/gitpod.png)
+- To help with styling I used a css debugger to help me with things like positioning and size, [link](https://github.com/benscabbia/x-ray)
+- For my ide I used gitpod, [link](https://www.gitpod.io/)
+![gitpod](documentation/images/gitpod.png)
 
 ## Testing
 
@@ -73,7 +73,7 @@ While working on this project i made use of a few tools, to store and version my
 ![newsletter.html shown in chrome](documentation/images/chrome.png)
 *Newsletter.html shown in chrome*
 ### Code Validation
-For validation i used two tools from w3, for css i used [this](https://validator.w3.org/nu/) and for html i used [this](https://jigsaw.w3.org/css-validator/) site  
+For validation I used two tools from w3, for css I used [this](https://validator.w3.org/nu/) and for html I used [this](https://jigsaw.w3.org/css-validator/) site  
 
 #### style.css
 [Validation of the style sheet that styles the header and footer](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)

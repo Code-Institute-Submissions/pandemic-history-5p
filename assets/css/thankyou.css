@@ -1,28 +1,29 @@
-.outer-container{
-    padding-top:40px;
+.outer-container {
+    padding-top: 40px;
 }
 
-.inner-container{
-    background-color: rgba(0,0,0,0.5);
-    width:50%;
-    margin:0 auto;
+.inner-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
 }
 
-h2, p{
-    color:white;
+h2,
+p {
+    color: white;
     text-align: center;
-    width:80%;
+    width: 80%;
     margin: 0 auto;
     font-family: lato;
 }
 
-p{
+p {
     padding-bottom: 10px;
 }
 
-.seperator{
-    width:90%;
-    height:2px;
+.seperator {
+    width: 90%;
+    height: 2px;
     background-color: white;
     margin: 10px auto;
 }

@@ -1,96 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body, html{
-    height:100%;
+body,
+html {
+    height: 100%;
 }
 
-body{
+body {
     background-image: url(../images/pandemic_map.jpg);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-main{
-    min-height:calc(100vh - 48px - 48px);
+main {
+    min-height: calc(100vh - 48px - 54px);
 }
 
-
-
 /*#region header */
-header h1{
+header h1 {
     text-align: center;
     margin: 0 auto;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     font-family: urbanist, sans-serif;
 }
 
-header{
-    background-color: rgba(63,75,44, 0.9);
-    color:white;
+header {
+    background-color: rgba(63, 75, 44, 0.9);
+    color: white;
 }
 
-header h1 span{
-    color:yellowgreen;
+header h1 span {
+    color: yellowgreen;
 }
 
-header ul{
+header ul {
     text-align: center;
 }
 
-header ul li{
+header ul li {
     font-family: Lato, sans-serif;
-    display:inline;
+    display: inline;
     list-style-type: none;
     margin: 0 0.5rem;
 }
 
-header ul li:hover{
-    background-color: rgba(86,96,68, 0.9);
+header ul li:hover {
+    background-color: rgba(86, 96, 68, 0.9);
 }
 
-header li a{
+header li a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
 }
+
 /*#endregion header*/
 
 /*#region Footer */
-footer{
+footer {
     font-family: Urbanist, sans-serif;
-    background-color: rgba(63,75,44, 0.9);
-    color:white;
-    width:100%;
-}
-
-footer p{
-    text-align: center;
-    padding:5px;
-}
-
-footer a{
+    background-color: rgba(63, 75, 44, 0.9);
     color: white;
-    margin-right:5px;
+    width: 100%;
 }
 
-.social-icons{
-    margin: 0;
+footer p {
+    text-align: center;
+    padding: 5px;
 }
 
-.social-icons{
-    text-decoration: none;
+footer a {
+    color: white;
     margin-right: 5px;
 }
+
+.social-icons {
+    margin: 0;    
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
 /*#endregion Footer*/
