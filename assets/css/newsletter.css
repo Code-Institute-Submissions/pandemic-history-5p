@@ -36,6 +36,7 @@ main p {
 
 }
 
+/* Form styling */
 input,
 textarea {
     font-size: 2ch;
@@ -57,13 +58,6 @@ textarea {
     margin-bottom: 10px;
 }
 
-.seperator {
-    width: 90%;
-    height: 2px;
-    background-color: white;
-    margin: 0 auto;
-}
-
 input:focus,
 textarea:focus {
     border: 3px solid #555;
@@ -73,4 +67,12 @@ textarea:focus {
 label,
 input {
     display: block;
+}
+
+/* styling for white hr */
+.seperator {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
 }

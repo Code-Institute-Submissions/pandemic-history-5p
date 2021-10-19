@@ -1,4 +1,4 @@
-/*#region Content */
+/* CSS Grid layout */
 .parent {
     width: 75%;
     margin: 0 auto;
@@ -11,6 +11,7 @@
     grid-row-gap: 20px;
 }
 
+/* Grid cells */
 .site-descriptor,
 .epidemic-definition,
 .pandemic-definition {
@@ -18,30 +19,33 @@
     padding: 2vh;
 }
 
+/* Padding to each p apart from last one */
 .site-descriptor p:nth-child(-n+2) {
     padding-bottom: 15px;
 }
 
+/* Descriptor cell */
 .site-descriptor {
     grid-area: 1 / 1 / 2 / 3;
     padding: 2vh;
 }
 
+/* Epiedmic cell */
 .epidemic-definition {
     grid-area: 2 / 1 / 3 / 2;
 }
 
+/* pandemic cell */
 .pandemic-definition {
     grid-area: 2 / 2 / 3 / 3;
 }
 
+/* all paragraphs styling */
 main p {
     text-align: center;
     color: whitesmoke;
     font-family: Lato, sans-serif;
 }
-
-/*#endregion Content*/
 
 /* Tablet */
 @media only screen and (min-width: 600px) {
