@@ -14,9 +14,10 @@ I used [colormind](http://colormind.io/) to find a color pallete for my site, us
 ### Typography
 To select my fonts I used [google fonts](https://fonts.google.com/)
 
-I chose to use a more decroative font, urbanist, for the title and headers, and opted for a more readable font, Lato, for the paragraphs of text.
+I chose to use a more decroative font, [urbanist](https://fonts.google.com/specimen/Urbanist), for the title and headers, and opted for a more readable font, [Lato](https://fonts.google.com/specimen/Lato), for the paragraphs of text.
 For the links on the footer I used font-awesome as its easy to use and has many logos for any sort of website I would like to link.
 
+In the footer i used [fontawesome](https://fontawesome.com/) to have a icon for linkdein and github.
 ### Wireframes
 ![](documentation/wireframes/homepage_wireframe_final.png)
 *Final wireframe for homepage*
@@ -32,23 +33,37 @@ For the links on the footer I used font-awesome as its easy to use and has many 
     - On all 4 pages, slightly transparent and is responsive. Displays the name of the site and a navigation bar to 3 of the 4 pages
     - Allows for easy navigation of the site
 
+![Header](documentation/images/header.png)
+
+*Header*
+
+
 - Footer
     - Contains my email for contact
     - A link to the credits where all of the sources for images etc, are listed
     - On the right hand side is 4 icons each leading to my social medias (although I only have linkedin)
 
+![Footer](documentation/images/footer.png)
+
+*Footer*
+
+
 - Timeline
     - The main content of the site, a vertically explored page that goes through the history of pandemics starting from the earliest known ones, to the most current one being Covid-19
     - The start and end date (if its ended) of the pandemic shown on the left hand side with the left consisting of a block text and the background area being a relevant picture to the spoken about pandemic
 
+![Timeline](documentation/images/timeline.png)
+
+*Timeline*
+
 - Newsletter
     - A page for users to signup for a history themed newsletter 
 
-- Credits
-    - A list of all the sources of information, images, definitions, that was used in the site
+![Newsletter](documentation/images/newsletter.png)
+
+*Newsletter*
 
 ### Features Left to Implement
-credits
 
 ## Technologies Used
 While working on this project I made use of a few tools, to store and version my code I used github + git. To develop the site I used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
