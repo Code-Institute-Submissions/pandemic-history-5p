@@ -1,6 +1,6 @@
 # Panedmics Through Time
 
-__Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is the largest and most deadly disease to harm and kill humans, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
+__Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is one of the most deadly disease to harm and kill humans in the last 100 years, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
 
 ## UX
 For the design I opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey 
@@ -214,7 +214,7 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
     - [Flu Pandemic (also know as Russian Flu) "Three separate illustrations relating to the influenza epidemic in Paris."](https://collections.nlm.nih.gov/catalog/nlm:nlmuid-101459303-img)
     - [Spanish Flu "Emergency hospital during Influenza epidemic, Camp Funston, Kansas"](https://commons.wikimedia.org/wiki/File:Emergency_hospital_during_Influenza_epidemic,_Camp_Funston,_Kansas_-_NCP_1603.jpg)
     - [Influenza "168 sick conscripts by asian flu in a sport arena att F 21 in Luleå. Picture was taken in 1957."](https://commons.wikimedia.org/wiki/File:Asian_flu_in_Sweden_1957_(2).jpg)
-    - [Hong Kong Flu "Nurse Nadyne Weber stands by her notice severely restricting visiting hours at Cleveland's Grace Hospital due to a flu outbreak." ](https://www.gettyimages.co.uk/detail/news-photo/nurse-nadyne-weber-stands-by-her-notice-severely-news-photo/515572182?et=T9x66YdqT4BjYPkRAQHT_g&referrer=https%3A%2F%2Fedenobrega.github.io%2F)
-    - [HIV/AIDS "Pakistani paramedics takes blood samples from children for HIV tests at a state-run hospital in Rato Dero"](https://www.gettyimages.co.uk/detail/news-photo/nurse-nadyne-weber-stands-by-her-notice-severely-news-photo/515572182?et=T9x66YdqT4BjYPkRAQHT_g&referrer=https%3A%2F%2Fedenobrega.github.io%2F)
+    - [Hong Kong Flu "Front page of a newspaper article from the town of Cazenovia, New York, December 25th 1968" ](https://nyshistoricnewspapers.org/lccn/sn83031502/1968-12-25/ed-1/seq-1.pdf?__cf_chl_managed_tk__=pmd__K698P6Iq6zwTd_uSJQ39Weucu9L4dX7xmp5uzk195o-1634599145-0-gqNtZGzNA1CjcnBszQk9)
+    - [HIV/AIDS "Photograph by Ken Regan, drowd behind fence on National Mall during Gay Rights March, 1993"](https://www.si.edu/object/gay-rights-march:nmah_1758585)
     - [Covid 19 "People in face masks strolling in Piazza di Spagna, Rome, Italy during the Covid pandemic"](https://unsplash.com/photos/-Qoi7zAf6YE)
   
