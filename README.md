@@ -3,7 +3,7 @@
 __Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is one of the most deadly disease to harm and kill humans in the last 100 years, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
 
 ## UX
-For the design I opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always ben kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey 
+For the design I opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always be kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey that the input is selected.
 
 ### Color Scheme
 I used [colormind](http://colormind.io/) to find a color pallete for my site, using the one shown below. I chose these because when talking about disease and illness, lighter shades of green and yellow are typically the first colors that come to mind and are used in many paintings and artwork depicting disease. Although I do not plan on using all the colors outside of the first two, as I plan on having the background as an image and black textboxes with white text for readability.
@@ -14,10 +14,10 @@ I used [colormind](http://colormind.io/) to find a color pallete for my site, us
 ### Typography
 To select my fonts I used [google fonts](https://fonts.google.com/)
 
-I chose to use a more decroative font, [urbanist](https://fonts.google.com/specimen/Urbanist), for the title and headers, and opted for a more readable font, [Lato](https://fonts.google.com/specimen/Lato), for the paragraphs of text.
-For the links on the footer I used font-awesome as its easy to use and has many logos for any sort of website I would like to link.
+I chose to use a more decorative font, [urbanist](https://fonts.google.com/specimen/Urbanist), for the title and headers, and opted for a more readable font, [Lato](https://fonts.google.com/specimen/Lato), for the paragraphs of text.
+For the links on the footer I used font-awesome as it's easy to use and has many logos for any sort of website I would like to link.
 
-In the footer i used [fontawesome](https://fontawesome.com/) to have a icon for linkdein and github.
+In the footer I used [fontawesome](https://fontawesome.com/) to have a icon for Linkdein and github.
 ### Wireframes
 ![](documentation/wireframes/homepage_wireframe_final.png)
 *Final wireframe for homepage*
@@ -30,8 +30,8 @@ In the footer i used [fontawesome](https://fontawesome.com/) to have a icon for 
 ## Features
 ### Existing Features
 - Header / Navigation bar
-    - On all 4 pages, slightly transparent and is responsive. Displays the name of the site and a navigation bar to 3 of the 4 pages
-    - Allows for easy navigation of the site
+    - On all 4 pages, slightly transparent and is responsive. Displays the name of the site and a navigation bar to 3 of the 4 pages.
+    - Allows for easy navigation of the site.
 
 ![Header](documentation/images/header.png)
 
@@ -39,9 +39,9 @@ In the footer i used [fontawesome](https://fontawesome.com/) to have a icon for 
 
 
 - Footer
-    - Contains my email for contact
-    - A link to the credits where all of the sources for images etc, are listed
-    - On the right hand side is 4 icons each leading to my social medias (although I only have linkedin)
+    - Contains my email for contact.
+    - A link to the credits where all of the sources for images etc. are listed.
+    - On the right hand side are 4 icons each leading to my social medias (although I only have Linkedin).
 
 ![Footer](documentation/images/footer.png)
 
@@ -49,31 +49,33 @@ In the footer i used [fontawesome](https://fontawesome.com/) to have a icon for 
 
 
 - Timeline
-    - The main content of the site, a vertically explored page that goes through the history of pandemics starting from the earliest known ones, to the most current one being Covid-19
-    - The start and end date (if its ended) of the pandemic shown on the left hand side with the left consisting of a block text and the background area being a relevant picture to the spoken about pandemic
+    - The main content of the site, a vertically explored page that goes through the history of pandemics starting from the earliest known ones, to the most current one being Covid-19.
+    - The start and end date (if it's ended) of the pandemic is shown on the left hand side with the left consisting of a block text and the background area being a relevant picture.
 
 ![Timeline](documentation/images/timeline.png)
 
 *Timeline*
 
 - Newsletter
-    - A page for users to signup for a history themed newsletter 
+    - A page for users to signup for a history themed newsletter. 
 
 ![Newsletter](documentation/images/newsletter.png)
 
 *Newsletter*
 
 ### Features Left to Implement
+Make the newsletter form save to a database.
 
 ## Technologies Used
-While working on this project I made use of a few tools, to store and version my code I used github + git. To develop the site I used gitpod which being a cloud IDE came handy as it gave me the ability to deploy the website to be accessed on any device other than my local device which allowed me to easily see the website on different devices such as tablets and phones, which gives me a better idea of what the site looks like without using inbrowser tools.
-
-- To create the layout of the three paragraphs on the home page I used css grid, to easily create the grid I used this the [website](https://cssgrid-generator.netlify.app/) shown below.
+- I used [git](https://git-scm.com/) for version control and storage.
+- To help with using git, I used [github](https://github.com/).
+- To create the layout of the three paragraphs on the home page I used css grid, to easily create the grid I used this [website](https://cssgrid-generator.netlify.app/) shown below.
 ![CSS Grid Generator](documentation/images/cssgrid.png)
 
-- I used html and css, [example](https://en.wikipedia.org/wiki/Main_Page)
-- To help with styling I used a css debugger to help me with things like positioning and size, [link](https://github.com/benscabbia/x-ray)
-- For my ide I used gitpod, [link](https://www.gitpod.io/)
+- I used [html](https://en.wikipedia.org/wiki/HTML) to design the site.
+- And [CSS](https://en.wikipedia.org/wiki/CSS) to style the site.
+- To help with styling I used a css debugger to help me with things like positioning and size: [link](https://github.com/benscabbia/x-ray).
+- For my IDE I used Gitpod, [link](https://www.gitpod.io/).
 ![gitpod](documentation/images/gitpod.png)
 
 ## Testing
@@ -88,24 +90,51 @@ While working on this project I made use of a few tools, to store and version my
 ![newsletter.html shown in chrome](documentation/images/chrome.png)
 *Newsletter.html shown in chrome*
 ### Code Validation
-For validation I used two tools from w3, for css I used [this](https://validator.w3.org/nu/) and for html I used [this](https://jigsaw.w3.org/css-validator/) site  
+For validation I used two tools from w3, for html I used [Nu Html Checker](https://validator.w3.org/nu/) and for css I used [CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
 
 #### style.css
-[Validation of the style sheet that styles the header and footer](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Validation of the style sheet that styles the header and footer.
+![](documentation/images/checks/style_css_checker.png)
 
 #### Index
-[HTML Validation, giving no errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Findex.html)
+HTML Validation, giving no errors.
 
-[CSS Validation, also giving no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Findex.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![](documentation/images/checks/index_html_check.png)
+
+
+CSS Validation, also giving no errors.
+
+![](documentation/images/checks/index_css_check.png)
 
 #### Timeline
-[HTML Validation, giving no errors apart from those from the iframe code given by getty for free image use](https://validator.w3.org/nu/?doc=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Ftimeline.html)
+HTML Validation, giving no errors.
 
-[CSS Validation, also giving no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Ftimeline.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![](documentation/images/checks/timeline_html_check.png)
+
+
+CSS Validation, also giving no errors.
+
+![](documentation/images/checks/timeline_css_check.png)
 
 ### Newsletter
-[HTML Validation, giving no errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fnewsletter.html)
-[CSS Validation, also giving no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedenobrega.github.io%2Fpandemic-history-5p%2Fassets%2Fcss%2Fnewsletter.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+HTML Validation, giving no errors.
+
+![](documentation/images/checks/newsletter_html_check.png)
+
+
+CSS Validation, also giving no errors.
+
+![](documentation/images/checks/newsletter_css_check.png)
+
+### Thankyou
+HTML Validation, giving no errors.
+
+![](documentation/images/checks/thankyou_html_check.png)
+
+
+CSS Validation, also giving no errors.
+
+![](documentation/images/checks/thankyou_css_check.png)
 
 ### Responsiveness
 ![Site Shown on my phone, huawei mate 20 pro](documentation/images/res_phone.png)
