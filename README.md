@@ -2,6 +2,8 @@
 
 __Pandemics through time__ is an informational website with the purpose of giving people a brief history of pandemics we have had throughout the years, as for many people, outside of the bubonic plague, the current ongoing Covid-19 pandemic is one of the most deadly disease to harm and kill humans in the last 100 years, and this site aims to give people a starting to point to get a rough understanding of other pandemics.
 
+![](documentation/images/amiresponsive.png)
+
 ## UX
 For the design I opted to have a background image covering the whole page rather than having a solid color. Any sort of text that is displayed will be inside of a transparent box to help with readability without completely hiding the background image. Elements will have padding on both left and right and be typically always be kept centered on screen, as this is a site used to convey information in a specific order having them all inline going down the page will make it extremely easy for people to go through the website and see everything without missing out. On the page for signing up for the newsletter, the input boxes will darken and there borders will change color too clearly convey that the input is selected.
 
@@ -20,13 +22,17 @@ For the links on the footer I used font-awesome as it's easy to use and has many
 In the footer I used [fontawesome](https://fontawesome.com/) to have a icon for Linkdein and github.
 ### Wireframes
 ![](documentation/wireframes/homepage_wireframe_final.png)
+
 *Final wireframe for homepage*
 
 ![](documentation/wireframes/timeline_wireframe.png)
+
 *Wireframe for timeline*
 
 ![](documentation/wireframes/signup_wireframe.png)
+
 *Wireframe for newsletter signup*
+
 ## Features
 ### Existing Features
 - Header / Navigation bar
@@ -152,15 +158,25 @@ CSS Validation, also giving no errors.
 ![Site shown at 1920px](documentation/images/resp_desk.png)
 *Site shown at 1920px*
 ### Unfixed Bugs
+I am currently unaware of any bugs in the project.
 
 ## Deployment
-### Local Deployment
 
-In order to make a local copy of this repository, you can type the following into your IDE terminal:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the [GitHub repository](https://github.com/edenobrega/pandemic-history-5p), navigate to the Settings tab.
+* From the Settings tab, scroll down until you see the 'Pages' button on the left.
+* From the Source section drop-down menu, select the `Main` branch.
+* Once the `Main` branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://edenobrega.github.io/pandemic-history-5p
+
+## Local Deployment
+
+To make a local copy of this project, you can clone it by typing the following in your IDE terminal:
 
 - `git clone https://github.com/edenobrega/pandemic-history-5p.git`
 
-Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://github.com/edenobrega/pandemic-history-5p) to generate your own workspace using my repository.
+Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/edenobrega/pandemic-history-5p)
 
 ## Credits
 
